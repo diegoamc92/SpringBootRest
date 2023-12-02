@@ -1,12 +1,12 @@
-package com.application.rest.persistence;
-
-import com.application.rest.entities.Product;
+package com.application.rest.service;
 
 import java.math.BigDecimal;
 import java.util.List;
 import java.util.Optional;
 
-public interface IProductDAO {
+import com.application.rest.entities.Product;
+
+public interface IProductService {
 
     List<Product> findAll();
 
